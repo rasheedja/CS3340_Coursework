@@ -1,0 +1,1358 @@
+Experiment 1: Variable Number Of Vehicles, Time to collect all rocks. Note: The result shows when the last rock was picked up, not dropped.
+    Simple:
+        Seed 133:
+            Run 1:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 133
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.000793
+                    Show Crumb Trails: Yes
+
+                Vehicles = 5
+                Steps to Collect All Rocks: 52785
+
+            Run 2:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 133
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0025
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 22000
+
+            Run 3:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 133
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.006
+                    Show Crumb Trails: Yes
+
+                Vehicles = 15
+                Steps to Collect All Rocks: 13737
+
+            Run 4:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 133
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.009
+                    Show Crumb Trails: Yes
+
+                Vehicles = 20
+                Steps to Collect All Rocks: 8540
+
+            Run 5:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 133
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.01235
+                    Show Crumb Trails: Yes
+
+                Vehicles = 25
+                Steps to Collect All Rocks: 7142
+
+        Seed 427:
+            Run 1:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 427
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0017
+                    Show Crumb Trails: Yes
+
+                Vehicles = 5
+                Steps to Collect All Rocks: 27423
+
+            Run 2:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 427
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0043
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 10135
+
+            Run 3:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 427
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0061
+                    Show Crumb Trails: Yes
+
+                Vehicles = 15
+                Steps to Collect All Rocks: 8958
+
+            Run 4:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 427
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.009
+                    Show Crumb Trails: Yes
+
+                Vehicles = 20
+                Steps to Collect All Rocks: 5632
+
+            Run 5:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 427
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.010925
+                    Show Crumb Trails: Yes
+
+                Vehicles = 25
+                Steps to Collect All Rocks: 3972
+
+        Seed 49:
+            Run 1:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 49
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0035
+                    Show Crumb Trails: Yes
+
+                Vehicles = 5
+                Steps to Collect All Rocks: 53925
+
+            Run 2:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 49
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.006
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 15585
+
+            Run 3:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 49
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.011
+                    Show Crumb Trails: Yes
+
+                Vehicles = 15
+                Steps to Collect All Rocks: 13487
+
+            Run 4:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 49
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0134
+                    Show Crumb Trails: Yes
+
+                Vehicles = 20
+                Steps to Collect All Rocks: 8764
+
+            Run 5:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 49
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0144
+                    Show Crumb Trails: Yes
+
+                Vehicles = 25
+                Steps to Collect All Rocks: 6402
+        Averages (To the nearest whole number):
+            5 Vehicles  = 44711
+            10 Vehicles = 15907
+            15 Vehicles = 12061
+            20 Vehicles = 7645
+            25 Vehicles = 5839
+    Collaborative:
+        Seed 133:
+            Run 1:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 133
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.000793
+                    Show Crumb Trails: Yes
+
+                Vehicles = 5
+                Steps to Collect All Rocks: 39385
+
+            Run 2:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 133
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0025
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 25845
+
+            Run 3:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 133
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.006
+                    Show Crumb Trails: Yes
+
+                Vehicles = 15
+                Steps to Collect All Rocks: 14074
+
+            Run 4:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 133
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.009
+                    Show Crumb Trails: Yes
+
+                Vehicles = 20
+                Steps to Collect All Rocks: 10896
+
+            Run 5:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 133
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.01235
+                    Show Crumb Trails: Yes
+
+                Vehicles = 25
+                Steps to Collect All Rocks: 7620
+
+        Seed 427:
+            Run 1:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 427
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0017
+                    Show Crumb Trails: Yes
+
+                Vehicles = 5
+                Steps to Collect All Rocks: 32435
+
+            Run 2:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 427
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0043
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 14728
+
+            Run 3:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 427
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0061
+                    Show Crumb Trails: Yes
+
+                Vehicles = 15
+                Steps to Collect All Rocks: 9459
+
+            Run 4:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 427
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.009
+                    Show Crumb Trails: Yes
+
+                Vehicles = 20
+                Steps to Collect All Rocks: 6845
+
+            Run 5:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 427
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.010925
+                    Show Crumb Trails: Yes
+
+                Vehicles = 25
+                Steps to Collect All Rocks: 4935
+
+        Seed 49:
+            Run 1:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 49
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0035
+                    Show Crumb Trails: Yes
+
+                Vehicles = 5
+                Steps to Collect All Rocks: 39197
+
+            Run 2:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 49
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.006
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 16262
+
+            Run 3:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 49
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.011
+                    Show Crumb Trails: Yes
+
+                Vehicles = 15
+                Steps to Collect All Rocks: 12842
+
+            Run 4:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 49
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0134
+                    Show Crumb Trails: Yes
+
+                Vehicles = 20
+                Steps to Collect All Rocks: 9608
+
+            Run 5:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 49
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0144
+                    Show Crumb Trails: Yes
+
+                Vehicles = 25
+                Steps to Collect All Rocks: 6995
+        Averages:
+            5 Vehicles  = 37006
+            10 Vehicles = 18945
+            15 Vehicles = 12125
+            20 Vehicles = 9116
+            25 Vehicles = 6517
+    Collaborative Optimised:
+        Seed 133:
+            Run 1:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 133
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.000793
+                    Show Crumb Trails: Yes
+
+                Vehicles = 5
+                Steps to Collect All Rocks: 12746
+
+            Run 2:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 133
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0025
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 4603
+
+            Run 3:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 133
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.006
+                    Show Crumb Trails: Yes
+
+                Vehicles = 15
+                Steps to Collect All Rocks: 4146
+
+            Run 4:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 133
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.009
+                    Show Crumb Trails: Yes
+
+                Vehicles = 20
+                Steps to Collect All Rocks: 3256
+
+            Run 5:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 133
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.01235
+                    Show Crumb Trails: Yes
+
+                Vehicles = 25
+                Steps to Collect All Rocks: 2216
+
+        Seed 427:
+            Run 1:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 427
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0017
+                    Show Crumb Trails: Yes
+
+                Vehicles = 5
+                Steps to Collect All Rocks: 8747
+
+            Run 2:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 427
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0043
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 4002
+
+            Run 3:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 427
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0061
+                    Show Crumb Trails: Yes
+
+                Vehicles = 15
+                Steps to Collect All Rocks: 3684
+
+            Run 4:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 427
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.009
+                    Show Crumb Trails: Yes
+
+                Vehicles = 20
+                Steps to Collect All Rocks: 2360
+
+            Run 5:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 427
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.010925
+                    Show Crumb Trails: Yes
+
+                Vehicles = 25
+                Steps to Collect All Rocks: 1873
+
+        Seed 49:
+            Run 1:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 49
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0035
+                    Show Crumb Trails: Yes
+
+                Vehicles = 5
+                Steps to Collect All Rocks: 12646
+
+            Run 2:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 49
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.006
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 5167
+
+            Run 3:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 49
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.011
+                    Show Crumb Trails: Yes
+
+                Vehicles = 15
+                Steps to Collect All Rocks: 3469
+
+            Run 4:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 49
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0134
+                    Show Crumb Trails: Yes
+
+                Vehicles = 20
+                Steps to Collect All Rocks: 2499
+
+            Run 5:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 49
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0144
+                    Show Crumb Trails: Yes
+
+                Vehicles = 25
+                Steps to Collect All Rocks: 2523
+        Averages:
+            5 Vehicles  = 11380
+            10 Vehicles = 4591
+            15 Vehicles = 3766
+            20 Vehicles = 2705
+            25 Vehicles = 2204
+Experiment 2: Number of rocks picked up every 1000, 2000, and 3000 steps for simple, collaborative, and collaborative
+optimised architectures.
+    Simple:
+        Seed: 133
+            Run 1:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 133
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0025
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Rocks collected at 1000 steps = 50
+                Rocks collected at 2000 steps = 83
+                Rocks collected at 3000 steps = 107
+        Seed: 427
+            Run 1:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 427
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0043
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Rocks collected at 1000 steps = 59
+                Rocks collected at 2000 steps = 112
+                Rocks collected at 3000 steps = 148
+        Seed: 49
+            Run 1:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 49
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.006
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Rocks collected at 1000 steps = 68
+                Rocks collected at 2000 steps = 107
+                Rocks collected at 3000 steps = 144
+        Averages:
+            Rocks collected at 1000 steps = 59
+            Rocks collected at 2000 steps = 101
+            Rocks collected at 3000 steps = 133
+    Collaborative:
+        Seed: 133
+            Run 1:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 133
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0025
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Rocks collected at 1000 steps = 78
+                Rocks collected at 2000 steps = 142
+                Rocks collected at 3000 steps = 169
+        Seed: 427
+            Run 1:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 427
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0043
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Rocks collected at 1000 steps = 144
+                Rocks collected at 2000 steps = 170
+                Rocks collected at 3000 steps = 189
+        Seed: 49
+            Run 1:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 49
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.006
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Rocks collected at 1000 steps = 124
+                Rocks collected at 2000 steps = 202
+                Rocks collected at 3000 steps = 219
+        Averages:
+            Rocks collected at 1000 steps = 115
+            Rocks collected at 2000 steps = 171
+            Rocks collected at 3000 steps = 192
+    Collaborative Optimised:
+        Seed: 133
+            Run 1:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 133
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0025
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Rocks collected at 1000 steps = 98
+                Rocks collected at 2000 steps = 173
+                Rocks collected at 3000 steps = 229
+        Seed: 427
+            Run 1:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 427
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0043
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Rocks collected at 1000 steps = 135
+                Rocks collected at 2000 steps = 221
+                Rocks collected at 3000 steps = 271
+        Seed: 49
+            Run 1:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 49
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.006
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Rocks collected at 1000 steps = 112
+                Rocks collected at 2000 steps = 191
+                Rocks collected at 3000 steps = 241
+        Averages:
+            Rocks collected at 1000 steps = 115
+            Rocks collected at 2000 steps = 195
+            Rocks collected at 3000 steps = 247
+Experiment 3, number of steps to clear the field with 10 vehicles in different sized fields for the simple,
+collaborative, and collaborative optimised architectures.
+    Simple:
+        Seed: 133
+            Run 1:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 133
+                    Mars Width: 40
+                    Mars Depth: 40
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.009
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 6815
+            Run 2:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 133
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0025
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 22000
+            Run 3:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 133
+                    Mars Width: 60
+                    Mars Depth: 60
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.002
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 20442
+        Seed: 427
+            Run 1:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 427
+                    Mars Width: 40
+                    Mars Depth: 40
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.008
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 13751
+            Run 2:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 427
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0043
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 10135
+            Run 3:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 427
+                    Mars Width: 60
+                    Mars Depth: 60
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0019
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 19122
+        Seed: 49
+            Run 1:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 49
+                    Mars Width: 40
+                    Mars Depth: 40
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.013
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 10446
+            Run 2:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 49
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.006
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 15585
+            Run 3:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 49
+                    Mars Width: 60
+                    Mars Depth: 60
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0042
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 32022
+        Averages:
+            40 Width and 40 Depth = 10337
+            50 Width and 50 Depth = 15907
+            60 Width and 60 Depth = 23862
+    Collaborative:
+        Seed: 133
+            Run 1:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 133
+                    Mars Width: 40
+                    Mars Depth: 40
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.009
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 9030
+            Run 2:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 133
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0025
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 25845
+            Run 3:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 133
+                    Mars Width: 60
+                    Mars Depth: 60
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.002
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 27098
+        Seed: 427
+            Run 1:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 427
+                    Mars Width: 40
+                    Mars Depth: 40
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.008
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 17231
+            Run 2:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 427
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0043
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 14728
+            Run 3:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 427
+                    Mars Width: 60
+                    Mars Depth: 60
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0019
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 14484
+        Seed: 49
+            Run 1:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 49
+                    Mars Width: 40
+                    Mars Depth: 40
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.013
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 10436
+            Run 2:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 49
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.006
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 16262
+            Run 3:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 49
+                    Mars Width: 60
+                    Mars Depth: 60
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0042
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 29730
+        Averages:
+            40 Width and 40 Depth = 12232
+            50 Width and 50 Depth = 18945
+            60 Width and 60 Depth = 23771
+    Collaborative Optimised:
+        Seed: 133
+            Run 1:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 133
+                    Mars Width: 40
+                    Mars Depth: 40
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.009
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 2775
+            Run 2:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 133
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0025
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 4603
+            Run 3:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 133
+                    Mars Width: 60
+                    Mars Depth: 60
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.002
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 7704
+        Seed: 427
+            Run 1:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 427
+                    Mars Width: 40
+                    Mars Depth: 40
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.008
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 3108
+            Run 2:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 427
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0043
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 4002
+            Run 3:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 427
+                    Mars Width: 60
+                    Mars Depth: 60
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0019
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 7313
+        Seed: 49
+            Run 1:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 49
+                    Mars Width: 40
+                    Mars Depth: 40
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.013
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 3423
+            Run 2:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 49
+                    Mars Width: 50
+                    Mars Depth: 50
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.006
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 5167
+            Run 3:
+                Constants:
+                    Simulation Length: 1000
+                    Simulation Seed: 49
+                    Mars Width: 60
+                    Mars Depth: 60
+                    Number Of Rocks: 300
+                    Number Of Clusters: 7
+                    Rock Cluster Std: 2.0
+                    Obstacle: 0.002
+                    Vehicle: 0.0042
+                    Show Crumb Trails: Yes
+
+                Vehicles = 10
+                Steps to Collect All Rocks: 8213
+        Averages:
+            40 Width and 40 Depth = 3102
+            50 Width and 50 Depth = 4591
+            60 Width and 60 Depth = 7743
