@@ -60,8 +60,7 @@ class Vehicle extends Entity{
 
         // If none of the above rules are true, the vehicle will move to a random location
         if (true) {
-            ArrayList<Location> freeLocations = f.getAllfreeAdjacentLocations(this.location);
-            moveToLocation(this.location, freeLocations.get(ModelConstants.random.nextInt(freeLocations.size())), f);
+            moveToRandomAdjacentLocation(f);
             return;
         }
     }
@@ -97,15 +96,14 @@ class Vehicle extends Entity{
 
         // If none of the above rules are true, the vehicle will move to a random location
         if (true) {
-            ArrayList<Location> freeLocations = f.getAllfreeAdjacentLocations(this.location);
-            moveToLocation(this.location, freeLocations.get(ModelConstants.random.nextInt(freeLocations.size())), f);
+            moveToRandomAdjacentLocation(f);
             return;
         }
 	}
 
     /**
      * When vehicles are using this architecture, in addition to acting collabarotively, when vehicles find a crumb,
-     * they will follow the crumb trail rather than just travelling down the gradient and for every two rocks the
+     * they will follow the crumb trail rather than just travelling down the gradient, and for every two rocks the
      * the vehicle finds, it will reduce the number of crumbs by one across the whole field.
      *
      * @param f The field that the vehicle is in
@@ -129,8 +127,8 @@ class Vehicle extends Entity{
         }
 
 
-        // If the vehicle has a rock next to it, pick it up. If the vehicle has picked up 2 rocks, reduce the number
-        // of crumbs across the entire field
+        // If the vehicle has a rock next to it, pick it up. For every two rocks picked up by the vehicle, reduce the
+        // number of crumbs across the entire field
         if (f.isNeighbourTo(this.location, Rock.class)) {
             pickUpNeighbouringRock(f, rocksCollected);
             if (rocksCollected.size() % 2 == 0) {
@@ -148,8 +146,7 @@ class Vehicle extends Entity{
 
         // If none of the above rules are true, the vehicle will move to a random location
         if (true) {
-            ArrayList<Location> freeLocations = f.getAllfreeAdjacentLocations(this.location);
-            moveToLocation(this.location, freeLocations.get(ModelConstants.random.nextInt(freeLocations.size())), f);
+            moveToRandomAdjacentLocation(f);
             return;
         }
     }
@@ -168,7 +165,7 @@ class Vehicle extends Entity{
                 highestGradientLocation = freeLocation;
             }
         }
-        moveToLocation(this.location, highestGradientLocation, f);
+        moveToLocation(highestGradientLocation, f);
     }
 
     /**
@@ -185,7 +182,7 @@ class Vehicle extends Entity{
                 lowestGradientLocation = freeLocation;
             }
         }
-        moveToLocation(this.location, lowestGradientLocation, f);
+        moveToLocation(lowestGradientLocation, f);
     }
 
     /**
@@ -207,7 +204,7 @@ class Vehicle extends Entity{
                 }
             }
         }
-        moveToLocation(this.location, nextLocation, f);
+        moveToLocation(nextLocation, f);
     }
 
 
@@ -228,13 +225,23 @@ class Vehicle extends Entity{
     /**
      * Move the vehicle to the given location, and update the field to correctly represent the vehicles locatoin
      *
-     * @param currentLocation The current location of the vehicle
      * @param newLocation     The new location of the vehicle
      * @param f               The field that the vehicle is on
      */
-	private void moveToLocation(Location currentLocation, Location newLocation, Field f) {
-	    f.clearLocation(currentLocation);
+	private void moveToLocation(Location newLocation, Field f) {
+	    f.clearLocation(this.location);
 	    this.location = newLocation;
 	    f.place(this, newLocation);
+    }
+
+
+    /**
+     * Move the vehicle to a random location next to it
+     *
+     * @param f The field that the vehicle is in
+     */
+    private void moveToRandomAdjacentLocation(Field f) {
+        ArrayList<Location> freeLocations = f.getAllfreeAdjacentLocations(this.location);
+        moveToLocation(freeLocations.get(ModelConstants.random.nextInt(freeLocations.size())), f);
     }
 }
