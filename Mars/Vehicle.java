@@ -153,58 +153,67 @@ class Vehicle extends Entity{
 
     /**
      * Move the vehicle to a higher gradient. This is done by getting all free adjacent locations, and then checking
-     * which of these locations has the highest signal strength. The ship is then moved to said location.
+     * which of these locations has the highest signal strength. The ship is then moved to said location. If there are
+     * no free locations, stay still.
      *
      * @param f The field that contains the vehicle
      */
     private void moveToHigherGradient(Field f) {
         ArrayList<Location> freeLocations = f.getAllfreeAdjacentLocations(this.location);
-        Location highestGradientLocation = null;
-        for (Location freeLocation : freeLocations) {
-            if (highestGradientLocation == null || f.getSignalStrength(freeLocation) > f.getSignalStrength(highestGradientLocation)) {
-                highestGradientLocation = freeLocation;
+        if (freeLocations.size() > 0) {
+            Location highestGradientLocation = null;
+            for (Location freeLocation : freeLocations) {
+                if (highestGradientLocation == null || f.getSignalStrength(freeLocation) > f.getSignalStrength(highestGradientLocation)) {
+                    highestGradientLocation = freeLocation;
+                }
             }
+            moveToLocation(highestGradientLocation, f);
         }
-        moveToLocation(highestGradientLocation, f);
     }
 
     /**
      * Move the vehicle to a lower gradient. This is done by getting all free adjacent locations, and then checking
-     * which of these locations has the lowest signal strength. The ship is then moved to said location.
+     * which of these locations has the lowest signal strength. The ship is then moved to said location. If there are no
+     * free locations, stay still.
      *
      * @param f The field that contains the vehicle
      */
     private void moveToLowerGradient(Field f) {
         ArrayList<Location> freeLocations = f.getAllfreeAdjacentLocations(this.location);
-        Location lowestGradientLocation = null;
-        for (Location freeLocation : freeLocations) {
-            if (lowestGradientLocation == null || f.getSignalStrength(freeLocation) < f.getSignalStrength(lowestGradientLocation)) {
-                lowestGradientLocation = freeLocation;
+        if (freeLocations.size() > 0) {
+            Location lowestGradientLocation = null;
+            for (Location freeLocation : freeLocations) {
+                if (lowestGradientLocation == null || f.getSignalStrength(freeLocation) < f.getSignalStrength(lowestGradientLocation)) {
+                    lowestGradientLocation = freeLocation;
+                }
             }
+            moveToLocation(lowestGradientLocation, f);
         }
-        moveToLocation(lowestGradientLocation, f);
     }
 
     /**
      * Move the vehicle to the location with the most crumbs or a lower gradient. This should be more efficient
      * than just moving down the gradient as the vehicle will follow the crumb trial directly to a cluster of rocks.
-     * If there are no crumbs to follow, the vehicle will simply move down the gradient as normal.
+     * If there are no crumbs to follow, the vehicle will simply move down the gradient as normal. If there are no
+     * free locations, stay still.
      *
      * @param f The field that contains the vehicle
      */
     private void moveToNextCrumbOrLowerGradient(Field f) {
         ArrayList<Location> freeLocations = f.getAllfreeAdjacentLocations(this.location);
-        Location nextLocation = null;
-        for (Location freeLocation : freeLocations) {
-            if (nextLocation == null || f.getCrumbQuantityAt(freeLocation) > f.getCrumbQuantityAt(nextLocation)) {
-                nextLocation = freeLocation;
-            } else if (f.getCrumbQuantityAt(nextLocation) == 0) {
-                if (f.getSignalStrength(freeLocation) < f.getSignalStrength(nextLocation)) {
+        if (freeLocations.size() > 0) {
+            Location nextLocation = null;
+            for (Location freeLocation : freeLocations) {
+                if (nextLocation == null || f.getCrumbQuantityAt(freeLocation) > f.getCrumbQuantityAt(nextLocation)) {
                     nextLocation = freeLocation;
+                } else if (f.getCrumbQuantityAt(nextLocation) == 0) {
+                    if (f.getSignalStrength(freeLocation) < f.getSignalStrength(nextLocation)) {
+                        nextLocation = freeLocation;
+                    }
                 }
             }
+            moveToLocation(nextLocation, f);
         }
-        moveToLocation(nextLocation, f);
     }
 
 
@@ -236,12 +245,14 @@ class Vehicle extends Entity{
 
 
     /**
-     * Move the vehicle to a random location next to it
+     * Move the vehicle to a random location next to it. If there are no free locations, stay still
      *
      * @param f The field that the vehicle is in
      */
     private void moveToRandomAdjacentLocation(Field f) {
         ArrayList<Location> freeLocations = f.getAllfreeAdjacentLocations(this.location);
-        moveToLocation(freeLocations.get(ModelConstants.random.nextInt(freeLocations.size())), f);
+        if (freeLocations.size() > 0) {
+            moveToLocation(freeLocations.get(ModelConstants.random.nextInt(freeLocations.size())), f);
+        }
     }
 }
